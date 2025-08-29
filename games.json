@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Retro Adventure: Lost in Time",
+    "release_date": "2025-08-25",
+    "platforms": "PC, Nintendo Switch",
+    "description": "A pixel-art adventure game exploring forgotten realms and time anomalies.",
+    "url": "https://example.com/retro-adventure-release"
+  },
+  {
+    "title": "Spacefarer: Frontier Omega",
+    "release_date": "2025-09-10",
+    "platforms": "PC",
+    "description": "A deep-space exploration RPG with procedurally generated planets and a focus on narrative.",
+    "url": "https://example.com/spacefarer-release"
+  }
+]
