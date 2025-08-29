@@ -1,22 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Game News Daily</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game News Daily</title>
+  <meta name="description" content="Game News Daily aggregates niche and indie game release news from across the web.">
+  <meta property="og:title" content="Game News Daily">
+  <meta property="og:description" content="Your daily dose of niche game release news.">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
       <h1>Game News Daily</h1>
-      <p>Your daily dose of niche game release news.</p>
-    </header>
-    <main id="news-feed">
-      <!-- Content will be injected here by script.js -->
-    </main>
-    <footer>
+      <nav>
+        <ul>
+          <li><a href="#news">News</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="https://github.com/jinxlover/Game-News-Daily">GitHub</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="container">
+      <h2>Your daily dose of niche game release news</h2>
+      <p>Discover hidden gems and upcoming indie titles from sources across the web.</p>
+    </div>
+  </section>
+  <main id="news" class="container">
+    <!-- Game cards will be inserted here -->
+  </main>
+  <footer>
+    <div class="container">
       <p>Generated automatically by Game News Daily.</p>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
 </html>
